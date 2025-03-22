@@ -1,7 +1,5 @@
 # Cumulative1
-
-# 🎓 **Teacher Management System**  
-
+  
 This repository contains a structured dataset for **managing teachers** in an educational institution. The system allows users to **view teacher details**, retrieve data through an **API**, and browse instructor information via a **web interface**.  
 
 ---
