@@ -33,6 +33,12 @@ The system manages a list of instructors with their **employee number, salary, a
 | 9    | Cody       | Holland    | T403       | 2016-06-13 | 43.20  |
 | 10   | John       | Taram      | T505       | 2015-10-23 | 79.63  |
 
+### Application To complete assignment
+ASP.NET MVC – The web framework utilized for developing the application.
+
+C# – The primary programming language for backend functionality.
+
+MySQL – A relational database system used for managing teacher and class records.
 
 ## 💻 **How to Get Started**  
 
