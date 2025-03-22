@@ -1,0 +1,26 @@
+﻿@model SchoolWebApp.Models.Teacher
+
+@{
+    ViewData["Title"] = "Teacher Details";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model != null)
+{
+    <div class="card" style="width: 24rem;">
+        <div class="card-body">
+            <h4 class="card-title">@Model.TeacherFname @Model.TeacherLname</h4>
+            <p class="card-text">
+                <strong>Employee Number:</strong> @Model.EmployeeNumber<br />
+                <strong>Salary:</strong> @Model.Salary?.ToString()<br />
+                <strong>Hire Date:</strong> @Model.HireDate?.ToString("yyyy-MM-dd")<br />
+            </p>
+            <a asp-action="List" asp-controller="TeacherPage" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-danger">Teacher not found.</div>
+}
