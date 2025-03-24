@@ -38,6 +38,14 @@ C# – The primary programming language for backend functionality.
 
 MySQL – A relational database system used for managing teacher and class records.
 
+### Building and Running the Application:
+
+1. **Open the Project** – Launch Visual Studio and open your project.  
+2. **Build the Solution** – Go to **Build > Build Solution** or press **Ctrl + Shift + B** to compile the code and check for errors.  
+3. **Run the Application** – Start the application by selecting **Debug > Start Debugging** (F5) for debugging mode or **Debug > Start Without Debugging** (Ctrl + F5) to run without breakpoints.  
+4. **Verify Output** – Ensure the application runs as expected by testing key functionalities. Check for errors or warnings in the **Output** and **Error List** windows.  
+5. **Make Adjustments** – If issues arise, modify the code accordingly, rebuild, and rerun the application.
+
 ## 💻 **How to Get Started**  
 
 ### 🛠️ Clone the Repository  
